@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Portfolio</title>
+  <title>Rohith Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <h1>Hi, I'm Rohith</h1>
-  <p>Welcome to my portfolio website</p>
+<h1>Hello, I'm Rohith 👋</h1>
+<p>These are some famous games 🎮</p>
 
-  <h2>About Me</h2>
-  <p>I am a student learning web development.</p>
+<div class="games">
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>GTA V</h3>
+  </div>
 
-  <h2>Contact</h2>
-  <form>
-    <input type="text" placeholder="Your Name"><br><br>
-    <input type="email" placeholder="Your Email"><br><br>
-    <button type="submit">Submit</button>
-  </form>
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>Minecraft</h3>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>Fortnite</h3>
+  </div>
+</div>
+
+<h2>Feedback</h2>
+
+<form id="form">
+  <input type="text" id="name" placeholder="Name" required>
+  <input type="email" id="email" placeholder="Email" required>
+  <textarea id="comment" placeholder="Comment"></textarea>
+  <button>Submit</button>
+</form>
+
+<p id="msg"></p>
+
+<script src="script.js"></script>
 
 </body>
 </html>
