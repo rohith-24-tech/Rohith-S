@@ -1,13 +1,15 @@
 body {
-  font-family: Arial;
   text-align: center;
-  background-color: #f2f2f2;
+  font-family: Arial;
 }
 
-h1 {
-  color: blue;
+.games {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-form {
-  margin-top: 20px;
+.card {
+  border: 1px solid gray;
+  padding: 10px;
 }
