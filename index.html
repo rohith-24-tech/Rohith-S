@@ -29,11 +29,20 @@
 
 <h2>Feedback</h2>
 
-<form id="form">
-  <input type="text" id="name" placeholder="Name" required>
-  <input type="email" id="email" placeholder="Email" required>
-  <textarea id="comment" placeholder="Comment"></textarea>
-  <button>Submit</button>
+<form
+  action="https://formspree.io/f/xreoqzje"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
 </form>
 
 <p id="msg"></p>
